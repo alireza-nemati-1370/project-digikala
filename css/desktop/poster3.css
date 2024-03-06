@@ -1,0 +1,15 @@
+.poster3 {
+  width: 100%;
+  height: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .poster3__top {
+    width: 80%;
+    height: inherit;
+    padding-top: 20px;
+    & img {
+      width: 100%;
+    }
+  }
+}

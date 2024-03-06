@@ -1,0 +1,74 @@
+.plas {
+  width: 100%;
+  height: 386px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .plas__item {
+    border-radius: 20px;
+    width: 80%;
+    height: 386px;
+    background-color: #941b80;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    .plas__item__left {
+      width: 30%;
+      height: inherit;
+      .plas__left__center {
+        font-family: IRAN;
+        color: whitesmoke;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .plas__left__botem {
+        padding-top: 10px;
+        border: 2px solid rgb(212, 210, 206);
+        width: 90px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        & span {
+          color: whitesmoke !important;
+          font-family: IRAN !important;
+          font-size: 15px;
+        }
+      }
+      .plas__left__botem__2 {
+        & img {
+          width: 350px;
+          height: 250px;
+        }
+      }
+    }
+    .plas__item__rat {
+      display: flex;
+      flex-flow: row wrap;
+      width: 70%;
+      height: 350px;
+      background-color:#FFFFFF;
+      padding: 10px;
+      border-radius: 20px;
+      .plas__ret__top {
+        font-family: IRAN;
+        font-size: 15px;
+        padding-bottom: 10px;
+      }
+      .plas__ret__center {
+        & img {
+          width: 110px;
+          height: 110px;
+        }
+      }
+      .plas__ret__botem {
+        & img {
+          width: 110px;
+          height: 110px;
+        }
+      }
+    }
+  }
+}

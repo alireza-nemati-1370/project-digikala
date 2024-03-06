@@ -1,0 +1,113 @@
+.products {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.products__item {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  height: 430px;
+}
+.products__center {
+  width: 80%;
+  height: 430px;
+  outline: 2px solid #e0e0e2;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+.products__item__top {
+  height: 130px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 10px;
+  & img {
+    width: 85px !important;
+    height: 85px !important;
+    padding-right: 5px;
+  }
+  & span {
+    font-family: var(--font-family-number);
+    color: aqua;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  & h5 {
+    font-family: IRAN;
+    font-size: 10px;
+    opacity: 0.6;
+    text-align: right;
+  }
+}
+.products__item__centrr {
+  height: 130px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 10px;
+  & img {
+    width: 85px !important;
+    height: 85px !important;
+    padding-right: 5px;
+  }
+  & span {
+    font-family: var(--font-family-number);
+    color: aqua;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  & h5 {
+    font-family: IRAN;
+    font-size: 10px;
+    opacity: 0.6;
+    text-align: right;
+  }
+}
+.products__item__bottem {
+  height: 130px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 10px;
+  & img {
+    width: 85px !important;
+    height: 85px !important;
+    padding-right: 5px;
+  }
+  & span {
+    font-family: var(--font-family-number);
+    color: aqua;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  & h5 {
+    font-family: IRAN;
+    font-size: 10px;
+    opacity: 0.6;
+    text-align: right;
+  }
+}
+.products__men {
+  display: flex;
+}
+.products__men__1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  & h2 {
+    font-family: IRAN;
+    font-size: 17px;
+    opacity: 0.8;
+  }
+}
+.products__men__2 {
+  padding-top: 20px;
+  & a {
+    font-family: IRAN;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #19bfd4 !important;
+  }
+}

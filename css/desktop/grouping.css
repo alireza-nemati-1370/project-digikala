@@ -1,0 +1,36 @@
+.grouping {
+  width: 100%;
+  height: 436px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .grouping__top {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & h2 {
+      font-family: IRAN;
+      font-size: 20px;
+      opacity: 0.8;
+      font-weight: non;
+    }
+  }
+  .grouping__botem {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    & img {
+      width: 100px;
+      height: 100px;
+    }
+    & a {
+      font-family: IRAN;
+    }
+  }
+}
